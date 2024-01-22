@@ -62,7 +62,7 @@ There are similar games in the market, but most of them are computer-based. Slid
 
 3b. Project Content
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.001.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.001.jpeg)
 
 **Figure 3.1: "Component" diagram for the Slide It! project**
 
@@ -101,7 +101,7 @@ g. auth: Google Authenticator
 
 **Use Case Diagrams for the Website**
 
-![Figure 1: Website Viewing](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.002.jpeg)
+![Figure 1: Website Viewing](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.002.jpeg)
 
 **Figure 1:** Website Viewing
 
@@ -115,7 +115,7 @@ g. auth: Google Authenticator
 | Alternative Path | -                                                     |
 | Exceptional Path | - User cannot view the main page if the web server has crashed. - User cannot view the main page in case of any authorization error. |
 
-![Figure 2: Website Registration](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.003.jpeg)
+![Figure 2: Website Registration](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.003.jpeg)
 
 **Figure 2:** Website Registration
 
@@ -129,7 +129,7 @@ g. auth: Google Authenticator
 | Alternative Path | - If any user data is already present in the database, the system throws an error. - If number and email are not verified, the system throws an error. |
 | Exceptional Path | - Number Verification System may encounter an error during verification. - Mail Verification System may encounter an error during verification. |
 
-![Figure 3: Website Login](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.004.jpeg)
+![Figure 3: Website Login](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.004.jpeg)
 
 **Figure 3:** Website Login
 
@@ -143,7 +143,7 @@ g. auth: Google Authenticator
 | Alternative Path | - If the user enters the username incorrectly, they cannot proceed to the password entry area. - If the user enters the password incorrectly, they can use the password reminder system to recall the password, but they cannot proceed to the Google Authenticator step. - If the user enters the correct username and password but does not enter the Authenticator code, they cannot enter the system. |
 | Exceptional Path | - If there is an issue with the database, the login process does not take place. - If Google Authenticator does not work, the login process does not take place. - If the Mail Verification system does not work properly, the login process does not take place. |
 
-![Figure 4: View User Page](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.005.jpeg)
+![Figure 4: View User Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.005.jpeg)
 
 **Figure 4:** View User Page
 
@@ -157,7 +157,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | User cannot view the user page if not logged in. |
 
-![Figure 5: Withdraw Balance](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.006.jpeg)
+![Figure 5: Withdraw Balance](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.006.jpeg)
 
 **Figure 5:** Withdraw Balance
 
@@ -171,7 +171,7 @@ g. auth: Google Authenticator
 | Alternative Path | User can cancel the request. |
 | Exceptional Path | - **If the user has no balance in the game, they cannot create a request.** - **If the user is not logged in, they cannot view the user page.** |
 
-![Figure 6: Deposit Balance](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.007.jpeg)
+![Figure 6: Deposit Balance](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.007.jpeg)
 
 **Figure 6:** Deposit Balance
 
@@ -185,7 +185,7 @@ g. auth: Google Authenticator
 | Alternative Path | If the user has already linked their wallet, they can directly deposit money. |
 | Exceptional Path | - **If the wallet account cannot be linked, the process cannot be completed.** - **If communication with the database cannot be established, the deposited money will not be credited.** |
 
-![Figure 7: Link Wallet Account](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.008.jpeg)
+![Figure 7: Link Wallet Account](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.008.jpeg)
 
 **Figure 7:** Link Wallet Account
 
@@ -199,7 +199,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | - **If the user does not have a wallet account, they cannot perform the linking process.** |
 
-![Figure 8: Buy Slide Coin](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.009.jpeg)
+![Figure 8: Buy Slide Coin](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.009.jpeg)
 
 **Figure 8:** Buy Slide Coin
 
@@ -213,7 +213,7 @@ g. auth: Google Authenticator
 | Alternative Path | If the user has already linked their wallet, they can directly deposit money. |
 | Exceptional Path | - **If the wallet account cannot be linked, the process cannot be completed.** - **If communication with the database cannot be established, the purchased amount will not be credited.** |
 
-![Figure 9: Log Out](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.010.jpeg)
+![Figure 9: Log Out](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.010.jpeg)
 
 **Figure 9:** Log Out
 
@@ -227,7 +227,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | - |
 
-![Figure 10: Check Username](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.011.jpeg)
+![Figure 10: Check Username](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.011.jpeg)
 
 **Figure 10:** Check Username
 
@@ -241,7 +241,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | **If the username exists in the database, a negative response is sent to the user.** |
 
-![Figure 11: Check Email Address](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.012.jpeg)
+![Figure 11: Check Email Address](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.012.jpeg)
 
 **Figure 11:** Check Email Address
 
@@ -255,7 +255,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | **If the email address exists in the database, a negative response is sent to the user.** |
 
-![Figure 12: Verify Email Address](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.013.jpeg)
+![Figure 12: Verify Email Address](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.013.jpeg)
 
 **Figure 12:** Verify Email Address
 
@@ -269,7 +269,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | - **If the code is not sent to the email, the process cannot be completed.** - **If the email verification system is not working, the process cannot be completed.** |
 
-![Figure 13: Check Phone Number](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.014.jpeg)
+![Figure 13: Check Phone Number](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.014.jpeg)
 
 **Figure 13:** Check Phone Number
 
@@ -283,7 +283,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | **If the phone number exists in the database, a negative response is sent to the user.** |
 
-![Figure 14: Verify Phone Number](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.015.jpeg)
+![Figure 14: Verify Phone Number](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.015.jpeg)
 
 **Figure 14:** Verify Phone Number
 
@@ -297,7 +297,7 @@ g. auth: Google Authenticator
 | Alternative Path | - |
 | Exceptional Path | - **If the code is not sent to the phone, the process cannot be completed.** - **If the phone verification system is not working, the process cannot be completed.** |
 
-![Figure 15: Save to Database](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.016.jpeg)
+![Figure 15: Save to Database](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.016.jpeg)
 
 **Figure 15:** Save to Database
 
@@ -313,7 +313,7 @@ g. auth: Google Authenticator
 
 **Use Case Diagrams for the Game**
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.017.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.017.jpeg)
 **Figure 16:** Game Main Screen
 
 **Table 16:**
@@ -327,7 +327,7 @@ g. auth: Google Authenticator
 | Alternative Path  | -                                                 |
 | Exceptional Path  | **If there are issues on the servers, the player cannot connect to the game.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.018.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.018.jpeg)
 **Figure 17:** Go to Game Main Screen
 
 **Table 17:**
@@ -341,7 +341,7 @@ g. auth: Google Authenticator
 | Alternative Path  | -                                                 |
 | Exceptional Path  | -                                                 |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.019.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.019.jpeg)
 **Figure 18:** Start the Game
 
 **Table 18:**
@@ -364,7 +364,7 @@ g. auth: Google Authenticator
 |                   | - **If the player selects a map but does not choose a car, they cannot start the game.** |
 |                   | - **If the player selects a map and a car but chooses not to enter the game, they cannot start the game.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.020.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.020.jpeg)
 **Figure 19:** Select Map
 
 **Table 19:**
@@ -379,7 +379,7 @@ g. auth: Google Authenticator
 | Alternative Path  | - Player can go to the game market to buy a map.  |
 | Exceptional Path  | **If the player does not select a map, they cannot proceed to the car selection screen.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.021.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.021.jpeg)
 **Figure 20:** Select Car
 
 **Table 20:**
@@ -395,7 +395,7 @@ g. auth: Google Authenticator
 |                   | - Player can go to the Marketplace.               |
 | Exceptional Path  | **If the player does not select a car, they cannot start the game.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.022.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.022.jpeg)
 **Figure 21:** Play
 
 **Table 21:**
@@ -410,7 +410,7 @@ g. auth: Google Authenticator
 | Alternative Path  | Player can return to the main menu without earning currency. |
 | Exceptional Path  | **If the player crashes somehow, they cannot play the game.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.023.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.023.jpeg)
 **Figure 22:** View Inventory
 
 **Table 22:**
@@ -427,7 +427,7 @@ g. auth: Google Authenticator
 |                   | - Player can go to the game market.               |
 | Exceptional Path  | **If inventory data is inaccessible, the player cannot view their inventory.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.024.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.024.jpeg)
 **Figure 23:** Enter the Game Market
 
 **Table 23:**
@@ -444,7 +444,7 @@ g. auth: Google Authenticator
 |                   | - **If the player has no map and did not buy a map, they cannot start the game.** |
 |                   | **To prevent this, each player will be given one car and one starting map.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.025.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.025.jpeg)
 **Figure 24:** Purchase Map from the Game Market
 
 **Table 24:**
@@ -463,7 +463,7 @@ g. auth: Google Authenticator
 |                   | - Player may choose not to buy anything.          |
 | Exceptional Path  | **If the balance is insufficient, the transaction is not completed.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.026.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.026.jpeg)
 **Figure 25:** Purchase Car from the Game Market
 
 **Table 25:**
@@ -482,7 +482,7 @@ g. auth: Google Authenticator
 |                   | - Player may choose not to buy anything.          |
 | Exceptional Path  | **If the balance is insufficient, the transaction is not completed.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.027.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.027.jpeg)
 **Figure 26:** Enter the Marketplace
 
 **Table 26:**
@@ -496,7 +496,7 @@ g. auth: Google Authenticator
 |                   | - Player can sell a car.                          |
 | Exceptional Path  | -                                                 |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.028.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.028.jpeg)
 
 **Figure 27:** Purchase Car from the Marketplace
 
@@ -517,7 +517,7 @@ g. auth: Google Authenticator
 | Exceptional Path  | - **If the player has never bought a car from the Marketplace, they cannot sell a car.** |
 |                   | - **The player cannot sell a car without setting a price.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.029.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.029.jpeg)
 **Figure 28:** Sell Car in the Marketplace
 
 **Table 28:**
@@ -535,7 +535,7 @@ g. auth: Google Authenticator
 | Exceptional Path  | - **If the player has never bought a car from the Marketplace, they cannot sell a car.** |
 |                   | - **The player cannot sell a car without setting a price.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.030.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.030.jpeg)
 **Figure 29:** Withdraw Money
 
 **Table 29:**
@@ -551,7 +551,7 @@ g. auth: Google Authenticator
 | Alternative Path  | -                                                 |
 | Exceptional Path  | **If the player's balance is insufficient, the exchange request is not processed.** |
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.031.jpeg)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.031.jpeg)
 **Figure 30:** View Settings
 
 **Table 30:**
@@ -654,7 +654,7 @@ There should be no errors on paper in the Slide It! Project. However, due to sys
 
 In the Slide It! project, considering that users will have features such as inventory and assets, the "Entity Component System" software architecture is deemed appropriate. Another reason for using this architecture is its common use in games.
 
-![Web Page Package Diagram](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.032.jpeg)
+![Web Page Package Diagram](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.032.jpeg)
 
 **Figure 31: Package Diagram for the Web Page**
 
@@ -666,7 +666,7 @@ In the Slide It! project, considering that users will have features such as inve
 
 - All transactions in the system are integrated with the "Data Management" package.
 
-![Game Package Diagram](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.033.jpeg)
+![Game Package Diagram](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.033.jpeg)
 
 **Figure 32: Package Diagram for the Game**
 
@@ -680,13 +680,13 @@ In the Slide It! project, considering that users will have features such as inve
 
 **Web Sayfası İçin Sınıf Diyagramı**
 
-![Web Page Class Diagram](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.034.jpeg)
+![Web Page Class Diagram](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.034.jpeg)
 
 **Figure 33: Class Diagram for the Web Page**
 
 **Oyun İçin Sınıf Diyagramı**
 
-![Game Class Diagram](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.035.jpeg)
+![Game Class Diagram](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.035.jpeg)
 
 **Figure 34: Class Diagram for the Game**
 
@@ -699,37 +699,37 @@ In the Slide It! project, the dynamic model will be explained with "Sequence Dia
 
 **Sequence Diagram 1: Log In**
 
-![Sequence Diagram 1](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.036.jpeg)
+![Sequence Diagram 1](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.036.jpeg)
 
 The user enters their username for login. If the username is correct, the system grants permission to switch to the password window. The user enters the password. If the password is correct, the system asks the user to enter the Google Authenticator code. The user enters the authenticator code, and the system directs the user.
 
 **Sequence Diagram 2: Sign Up**
 
-![Sequence Diagram 2](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.037.jpeg)
+![Sequence Diagram 2](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.037.jpeg)
 
 The user enters the registration page. They choose a username. If the username has not been used before, the system grants permission to switch to the password window and asks to set a password. The user sets a password, and the password is saved in the system. Then, the system asks for a phone number. The user enters the phone number. If the number has not been used before, it proceeds to the confirmation step. If confirmed, it moves to entering the email address. The user enters the email address. If the email address has not been used before, it moves to the confirmation step. If confirmed, the database encrypts and saves all data. Then, the system redirects the user.
 
 **Sequence Diagram 3: Withdraw Balance**
 
-![Sequence Diagram 3](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.038.jpeg)
+![Sequence Diagram 3](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.038.jpeg)
 
 The user can see, approve, or reject notifications from the game. If the user approves any request, the exchange takes place, the balance is updated, and the request status is updated.
 
 **Sequence Diagram 4: Deposit Balance**
 
-![Sequence Diagram 4](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.039.jpeg)
+![Sequence Diagram 4](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.039.jpeg)
 
 The user creates a swap request. If the requested amount is in the balance, Slide Coin is converted to in-game currency, saved in the database, and can be viewed in the game.
 
 **Sequence Diagram 5: Buy Slide Coin**
 
-![Sequence Diagram 5](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.040.jpeg)
+![Sequence Diagram 5](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.040.jpeg)
 
 The user connects their wallet through the wallet provider to buy Slide Coin and creates a request. If there is enough balance, the Slide Coin balance is updated, and the transaction is completed.
 
 **Sequence Diagram 6: Log Out**
 
-![Sequence Diagram 6](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.041.jpeg)
+![Sequence Diagram 6](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.041.jpeg)
 
 The user presses the log out button. The system disconnects.
 
@@ -737,43 +737,43 @@ The user presses the log out button. The system disconnects.
 
 **Sequence Diagram 7: Enter the Game**
 
-![Sequence Diagram 7](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.042.jpeg)
+![Sequence Diagram 7](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.042.jpeg)
 
 The player enters the game and makes a login request to start the game. The game asks the user for an email address. If the email address is correct, the game asks the user to enter a password. If the password is correct, the user is directed to the game's main screen.
 
 **Sequence Diagram 8: View Inventory**
 
-![Sequence Diagram 8](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.043.jpeg)
+![Sequence Diagram 8](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.043.jpeg)
 
 The player creates a request to view the inventory. A query is made in the database, and inventory data is displayed.
 
 **Sequence Diagram 9: Buy Car from Game Market**
 
-![Sequence Diagram 9](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.044.jpeg)
+![Sequence Diagram 9](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.044.jpeg)
 
 The player creates a request to buy a car. The system asks for selecting a car. The player selects a car and makes a payment. If the balance is sufficient, the payment is completed, and the balance and inventory are updated.
 
 **Sequence Diagram 10: Buy Map from Game Market**
 
-![Sequence Diagram 10](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.045.jpeg)
+![Sequence Diagram 10](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.045.jpeg)
 
 The player creates a request to buy a map. The system asks for selecting a map. The player selects a map and makes a payment. If the balance is sufficient, the payment is completed, and the balance and inventory are updated.
 
 **Sequence Diagram 11: Buy Car from Marketplace**
 
-![Sequence Diagram 11](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.046.jpeg)
+![Sequence Diagram 11](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.046.jpeg)
 
 The user creates a request to buy a car. Car data is retrieved from the database. The user selects a car and makes a payment. If the balance is sufficient, the transaction is completed. The car database, user inventory, and balance are updated.
 
 **Sequence Diagram 12: Sell Car on Marketplace**
 
-![Sequence Diagram 12](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.047.jpeg)
+![Sequence Diagram 12](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.047.jpeg)
 
 The user creates a sale request. Inventory data for sale is displayed, and a car is selected. A price is set, and confirmation is requested. Once confirmed, the inventory and database are updated.
 
 **Sequence Diagram 13: Start the Game**
 
-![Sequence Diagram 13](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.048.jpeg)
+![Sequence Diagram 13](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.048.jpeg)
 
 The player presses the play button, and the system asks to select a map. The player wants to view the maps. Map data is retrieved, and a map is selected. Then, the player is asked to select a car. The player wants to view the cars, car data is retrieved, and a car is selected. After selection, the system directs the player to the game.
 
@@ -781,7 +781,7 @@ The player presses the play button, and the system asks to select a map. The pla
 
 In the Slide It! project, Subsystem Decomposition has been schematized using a Deployment Diagram.
 
-![Slide It Projesine Ait Deployment Diyagramı](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.049.jpeg)
+![Slide It Projesine Ait Deployment Diyagramı](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.049.jpeg)
 
 **Figure: Deployment Diagram for Slide It! Project**
 
@@ -801,105 +801,105 @@ Software used to prepare the UIs:
 
 **\*Some of the game visuals are quoted for representational purposes as the game is not ready.**
 
-![Web Page](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.050.png)
+![Web Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.050.png)
 
 ### 1. Home Page
 
-![Registration Page (Username Entry)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.051.png)
+![Registration Page (Username Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.051.png)
 
 ### 2. Registration Pages
 #### 2.1.1 Registration Page (Username Entry)
 
-![Registration Page (Password Entry)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.052.png)
+![Registration Page (Password Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.052.png)
 
 #### 2.1.2 Registration Page (Password Entry)
 
-![Registration Page (Phone Number Entry & Confirmation)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.053.png)
+![Registration Page (Phone Number Entry & Confirmation)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.053.png)
 
 #### 2.1.3 Registration Page (Mail Address Entry & Confirmation)
 
-![Registration Page (Mail Address Entry & Confirmation)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.054.png)
+![Registration Page (Mail Address Entry & Confirmation)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.054.png)
 
 #### 2.2 Registration Page (Completion & Redirection)
 
-![Registration Page (Completion & Redirection)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.055.png)
+![Registration Page (Completion & Redirection)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.055.png)
 
 ### 2.2 Login Page
 #### 2.2.1 Login Page (Mail and Password Entry)
 
-![Login Page (Mail and Password Entry)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.056.png)
+![Login Page (Mail and Password Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.056.png)
 
 #### 2.2.2 Login Page (Google Authenticator)
 
-![Login Page (Google Authenticator)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.057.png)
+![Login Page (Google Authenticator)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.057.png)
 
 #### 2.2.3 Login Page (Completion & Redirection)
 
-![Login Page (Completion & Redirection)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.058.png)
+![Login Page (Completion & Redirection)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.058.png)
 
 ### 2.3 User Page
 
-![User Page](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.059.png)
+![User Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.059.png)
 
 #### 2.3.1 Wallet Not Connected User Page (Coin Exchange Page)
 
-![Wallet Not Connected User Page (Coin Exchange Page)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.060.png)
+![Wallet Not Connected User Page (Coin Exchange Page)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.060.png)
 
 #### 2.3.2 Wallet Connection (Wallet Provider Screen)
 
-![Wallet Connection (Wallet Provider Screen)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.061.png)
+![Wallet Connection (Wallet Provider Screen)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.061.png)
 
 #### 2.3.3 Wallet Connected User Page (Coin Exchange Page)
 
-![Wallet Connected User Page (Coin Exchange Page)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.062.png)
+![Wallet Connected User Page (Coin Exchange Page)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.062.png)
 
 #### 2.3.4 Post-Exchange View
 
-![Post-Exchange View](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.063.png)
+![Post-Exchange View](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.063.png)
 
 #### 2.3.5 Wallet Page (Slide Coin Purchase)
 
-![Wallet Page (Slide Coin Purchase)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.064.png)
+![Wallet Page (Slide Coin Purchase)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.064.png)
 
 #### 2.3.6 Post-Purchase View
 
-![Post-Purchase View](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.065.png)
+![Post-Purchase View](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.065.png)
 
 #### 2.3.7 Withdrawal Page (View and Process Requests from the Game)
 
-![Withdrawal Page (View and Process Requests from the Game)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.066.png)
+![Withdrawal Page (View and Process Requests from the Game)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.066.png)
 
 #### 2.3.7.1 Withdrawal Page (Additional Menu)
 
-![Withdrawal Page (Additional Menu)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.067.png)
+![Withdrawal Page (Additional Menu)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.067.png)
 
 #### 2.3.8 Logout
 
-![Logout](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.068.png)
+![Logout](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.068.png)
 
 **Game**
 
 ### 3.1 Game Entry Screen
-![Game Entry Screen](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.069.png)
+![Game Entry Screen](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.069.png)
 
 ### 3.1.2 Game Login Screen
-![Game Login Screen](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.070.png)
+![Game Login Screen](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.070.png)
 
 ### 3.2 Game Main Screen (Representative)
 
-![Game Main Screen (Representative)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.071.png)
+![Game Main Screen (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.071.png)
 
 ### 3.2.1 Start Game (Select Map) (Representative)
 
-![Start Game (Select Map) (Representative)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.072.png)
+![Start Game (Select Map) (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.072.png)
 
 ### 3.2.2 Start Game (Select Car) (Representative)
 
-![Start Game (Select Car) (Representative)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.073.png)
+![Start Game (Select Car) (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.073.png)
 
 ### 3.3 Game View (Representative)
 
-![Game View (Representative)](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.074.png)
+![Game View (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.074.png)
 
 *Representative images are quoted from the game "Horizon Chase," with additions made to the pictures.*
 
@@ -1039,11 +1039,11 @@ The success/failure test criteria for the Slide It! system are explained in tabl
 ## <a name="_toc94305665"></a><a name="_toc94305785"></a><a name="_toc94305896"></a><a name="_toc94306062"></a><a name="_toc94390994"></a>**17 Test Cases**
 </a>**Table 17.1 : Detailed Test Cases and Results(Web Page)**
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.075.png)<a name="_hlk94302882">
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.075.png)<a name="_hlk94302882">
 
 **Table 17.1.2 Detailed Test Cases and Results(Page)**
 
-![](Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.076.png)
+![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.076.png)
 
 # <a name="_toc94306063"></a><a name="_toc94390995"></a>**V Glossary**
 W – Web Page
