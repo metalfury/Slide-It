@@ -1,4 +1,4 @@
-##Slide It - Play to Earn Drift Game
+**Slide It - Play to Earn Drift Game**
 This Repository contains the reports of the Slide It! project.
 
 #[Design Project](https://github.com/metalfury/Slide-It/blob/main/Slide%20It%20-%20Play-to-Earn%20Drift%20Game%20(Design%20Project).md)
