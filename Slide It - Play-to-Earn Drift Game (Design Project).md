@@ -43,7 +43,7 @@
 
 [V. Glossary](#_toc94390995)
 
-#**PROJECT MEMBERS**
+# **PROJECT MEMBERS**
 **Ömer Faruk Can DOĞRUSOY**
 **Hüseyin KARAOĞLAN**
 **Mert Ömer ŞENER**
