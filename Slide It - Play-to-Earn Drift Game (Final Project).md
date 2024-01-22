@@ -132,11 +132,11 @@ The Slide It! project involves multiple systems. During the phase of determining
 ## <a name="_toc106213995"></a><a name="_toc106214131"></a><a name="_toc106214183"></a>**3.1 METHODS USED IN GAME DEVELOPMENT**
 The Unity game engine was chosen as the game engine and development environment for developing the game. The reason for selecting this game engine is its user-friendly development interface, easy integration of plugins and services, easy access for developers to extensions called assets through the Unity Asset Store, and its compatibility with the C# language. Additionally, the community support is greater compared to other game development environments.
 
-![Unity Interface](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.001.png)
+![Unity Interface](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.001.png)
 
 *Screenshot 1: Unity Interface*
 
-![Visual Studio Interface](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.002.png)
+![Visual Studio Interface](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.002.png)
 
 *Screenshot 2: Visual Studio 2022 Interface*
 
@@ -144,84 +144,84 @@ Every script in the game, including the core drift mechanics, was written using 
 
 The "ACC (Arcade Car Controller)" asset was purchased from the Asset Store and integrated into the game for the core drift mechanics. Additionally, the main menu template from the same asset was used for the main menu.
 
-![ACC Asset](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.003.png)
+![ACC Asset](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.003.png)
 
 *Screenshot 3: Unity Asset Store ACC Asset*
 
 The Modern UI Pack Asset was used for some interface elements (input field, modal window, button). This asset was acquired for free.
 
-![Modern UI Pack](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.004.png)
+![Modern UI Pack](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.004.png)
 
 The "STYLIZED: Complete Drift Cars" asset was purchased for the cars that will be used and sold in the game. This asset includes 17 car models, and the models were added to the game using the "Add car to game" panel of the ACC asset.
 
-![Car Asset](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.005.png)
+![Car Asset](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.005.png)
 
 *Screenshot 4: Asset Store Car Asset*
 
-![Adding Car](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.005.png)
+![Adding Car](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.005.png)
 
 *Screenshot 5: Car Adding Panel*
 
-![Importing Asset](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.006.png)
+![Importing Asset](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.006.png)
 
 *Screenshot 6: Asset Import Screen*
 
-![Login Screen Hierarchy](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.007.png)
+![Login Screen Hierarchy](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.007.png)
 
 *Screenshot 7: Login Screen Hierarchy*
 
-![Login Screen](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.008.jpeg)
+![Login Screen](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.008.jpeg)
 
 *Screenshot 8: Login Screen*
 
-![Main Screen Hierarchy](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.009.png)
+![Main Screen Hierarchy](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.009.png)
 
 *Screenshot 9: Main Screen Hierarchy*
 
-![Main Screen](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.010.jpeg)
+![Main Screen](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.010.jpeg)
 
 *Screenshot 10: Main Screen*
 
 Due to time constraints, a custom map was not added to the game, and existing maps in the ACC asset were used.
 
-![Select Map Screen](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.011.jpeg)
+![Select Map Screen](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.011.jpeg)
 
 *Screenshot 11: Map Selection Screen*
 
-![Select Car Screen](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.012.png)
+![Select Car Screen](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.012.png)
 
 *Screenshot 12: Car Selection Screen*
 
-![Gameplay Screenshot](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.013.png)
+![Gameplay Screenshot](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.013.png)
 
 *Screenshot 13: Gameplay Screenshot*
 
 Game data (username, user's money, score, etc.) is currently stored in a local database provided by Unity called PlayerPrefs. The desired future step is to integrate the Firebase Realtime Database into the game to retrieve data from the user who registered through our website and write the game data to the database.
 
-![Database Connection Method](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.014.png)
+![Database Connection Method](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.014.png)
 
 *Screenshot 14: Method for Database Connection*
 
-![Fetching User Data](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.015.png)
+![Fetching User Data](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.015.png)
 
 *Screenshot 15: Fetching User Data from Database & User Authentication*
 
-![Fetching Money Data](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.016.png)
+![Fetching Money Data](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.016.png)
 
 *Screenshot 16: Fetching Money Data from Database*
 
-![Writing Username to Game](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.017.png)
+![Writing Username to Game](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.017.png)
 
 *Screenshot 17: Writing Username to Game*
 
-![PlayerPrefs Methods](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.018.png)
+![PlayerPrefs Methods](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.018.png)
 
 *Screenshot 18: PlayerPrefs Methods*
 
 ## <a name="_toc106213996"></a><a name="_toc106214132"></a><a name="_toc106214200"></a>**3.2 METHODS USED IN THE DEVELOPMENT OF THE WEBSITE**
 To develop the website, a template named "NetStorm -NFT Marketplace" was purchased from ThemeForest, prepared with ReactJs. The template proved challenging initially due to unclear descriptions and documentation, but the development process became smoother over time.
 
-![Template Preview](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.019.png)
+![Template Preview](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.019.png)
 
 *Screenshot 19: Template Preview on the Store*
 
@@ -231,61 +231,61 @@ The entire project was uploaded to GitHub as private, and development work was d
 
 Basic JavaScript and CSS codes were used in the development of the web page.
 
-![GitHub Repository](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.020.png)
+![GitHub Repository](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.020.png)
 
 *Screenshot 20: GitHub Repository of the Web Page*
 
-![Home Page](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.021.png)
+![Home Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.021.png)
 
 *Screenshot 21: Web Page - Home Page*
 
-![News Page](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.022.png)
+![News Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.022.png)
 
 *Screenshot 22: Web Page - News Page*
 
-![Front-End Development of the Home Page](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.023.png)
+![Front-End Development of the Home Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.023.png)
 
 *Screenshot 23: Front-End Development of the Home Page*
 
-![Wallet Integration Method](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.024.png)
+![Wallet Integration Method](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.024.png)
 
 *Screenshot 24: Wallet Integration Method*
 
 Another template named "Vision UI Dashboard" was used for users to perform transactions and register. This template is also written in ReactJs and integrated with Firebase Realtime Database.
 
-![Template Preview](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.025.png)
+![Template Preview](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.025.png)
 
 *Screenshot 25: Template Preview*
 
 The homepage of this template is currently static.
 
-![Static Interface](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.026.png)
+![Static Interface](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.026.png)
 
 *Screenshot 26: Static Interface*
 
 The Firebase Realtime Database method is present in the user registration section. Through this method, user information, along with a unique key, is written to the database via a form.
 
-![User Registration](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.027.png)
+![User Registration](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.027.png)
 
 *Screenshot 27: User Registration Screen and Form*
 
-![Firebase Configuration File](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.028.png)
+![Firebase Configuration File](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.028.png)
 
 *Screenshot 28: Firebase Configuration File*
 
-![Importing Firebase into the Project](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.029.png)
+![Importing Firebase into the Project](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.029.png)
 
 *Screenshot 29: Importing Firebase into the Project and Defining Input Components*
 
-![Defining Components](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.030.png)
+![Defining Components](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.030.png)
 
 *Screenshot 30: Defining Components for Inputs and Button*
 
-![Component Definitions](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.031.png)
+![Component Definitions](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.031.png)
 
 *Screenshot 31: Method for Database Registration*
 
-![Firebase Realtime Database Interface](Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.032.png)
+![Firebase Realtime Database Interface](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.032.png)
 
 *Screenshot 32: Firebase Realtime Database Interface*
 
