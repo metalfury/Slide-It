@@ -1,52 +1,52 @@
 # **Table of Contents**
 [I. Project Definition](#_toc94390974)
 
-[1. General Overview of the Project](#_toc94390975)
+  [1. General Overview of the Project](#_toc94390975)
 
-[2. Project Purpose](#_toc94390976)
+  [2. Project Purpose](#_toc94390976)
 
-[3. Project Scope](#_toc94390977)
+  [3. Project Scope](#_toc94390977)
 
-[4. Product Scenarios](#_toc94390978)
+  [4. Product Scenarios](#_toc94390978)
 
-[5. Constraints](#_toc94390979)
+  [5. Constraints](#_toc94390979)
 
-[6. Definitions](#_toc94390980)
+  [6. Definitions](#_toc94390980)
 
 [II. Requirements Analysis](#_toc94390981)
 
-[7. Use Cases and Table Descriptions](#_toc94390982)
+  [7. Use Cases and Table Descriptions](#_toc94390982)
 
-[8. Functional Requirements](#_toc94390983)
+  [8. Functional Requirements](#_toc94390983)
 
 [III. Design Documentation](#_toc94390984)
 
-[9. Definition of Design Objectives](#_toc94390985)
+  [9. Definition of Design Objectives](#_toc94390985)
 
-[10. Proposed Software Architecture](#_toc94390986)
+  [10. Proposed Software Architecture](#_toc94390986)
 
-[11. Class Diagrams](#_toc94390987)
+  [11. Class Diagrams](#_toc94390987)
 
-[12. Dynamic Model](#_toc94390988)
+  [12. Dynamic Model](#_toc94390988)
 
-[13. Subsystem Decomposition](#_toc94390989)
+  [13. Subsystem Decomposition](#_toc94390989)
 
-[14. User Interface](#_toc94390990)
+  [14. User Interface](#_toc94390990)
 
 [IV. Test Plans](#_toc94390991)
 
-[15. Testable and Untestable Features](#_toc94390992)
+  [15. Testable and Untestable Features](#_toc94390992)
 
-[16. Successful/Unsuccessful Test Evaluation Criteria](#_toc94390993)
+  [16. Successful/Unsuccessful Test Evaluation Criteria](#_toc94390993)
 
-[17. Test Cases](#_toc94390994)
+  [17. Test Cases](#_toc94390994)
 
 [V. Glossary](#_toc94390995)
 
 # **PROJECT MEMBERS**
-**Ömer Faruk Can DOĞRUSOY**
-**Hüseyin KARAOĞLAN**
-**Mert Ömer ŞENER**
+# **Ömer Faruk Can DOĞRUSOY**
+# **Hüseyin KARAOĞLAN**
+# **Mert Ömer ŞENER**
 
 # <a name="_toc94306043"></a><a name="_toc94390974"></a>**I. Project Definition**
 ## <a name="_toc94305650"></a><a name="_toc94305770"></a><a name="_toc94305881"></a><a name="_toc94306044"></a><a name="_toc94390975"></a>**1. General Overview of the Project**
@@ -89,9 +89,9 @@ GC – Game coin: In-game currency
 
 SC – Slide coin: Cryptocurrency created for the project
 
-k.page – User Page: A page where users can view information after logging in.
+k. sayfasi – User Page: A page where users can view information after logging in.
 
-k. name: User Name
+k. adi: User Name
 
 g. auth: Google Authenticator
 
@@ -624,9 +624,9 @@ g. auth: Google Authenticator
 | FR2.9.2                 | The player must be able to spend the earned money in the game market or Marketplace.|
 | FR2.9.3                 | The player must be able to close the game.                   |
 
-# <a name="_toc94306053"></a><a name="_toc94390984"></a>#**III Design Documentation**
+# <a name="_toc94306053"></a><a name="_toc94390984"></a>**III Design Documentation**
 
-## <a name="_toc94305658"></a><a name="_toc94305778"></a><a name="_toc94305889"></a><a name="_toc94306054"></a><a name="_toc94390985"></a>**## 9 Definition of Design Goals**
+## <a name="_toc94305658"></a><a name="_toc94305778"></a><a name="_toc94305889"></a><a name="_toc94306054"></a><a name="_toc94390985"></a>**9 Definition of Design Goals**
 
 ** Well-defined Interfaces **
 
@@ -650,7 +650,7 @@ Documentation containing such information and outlining how the project will pro
 
 There should be no errors on paper in the Slide It! Project. However, due to systemic issues, the number of errors should be kept to a minimum. Even the smallest error can cause irreversible financial damage to a user or the system. To avoid such consequences, the system must be created correctly.
 
-## <a name="_toc94305659"></a><a name="_toc94305779"></a><a name="_toc94305890"></a><a name="_toc94306055"></a><a name="_toc94390986"></a>**##**10 Recommended Software Architecture**
+## <a name="_toc94305659"></a><a name="_toc94305779"></a><a name="_toc94305890"></a><a name="_toc94306055"></a><a name="_toc94390986"></a>**10 Recommended Software Architecture**
 
 In the Slide It! project, considering that users will have features such as inventory and assets, the "Entity Component System" software architecture is deemed appropriate. Another reason for using this architecture is its common use in games.
 
@@ -676,15 +676,15 @@ In the Slide It! project, considering that users will have features such as inve
 
 - All transactions in the system are integrated with the "Data Management" package.
 
-## <a name="_toc94305660"></a><a name="_toc94305780"></a><a name="_toc94305891"></a><a name="_toc94306056"></a><a name="_toc94390987"></a>**11 Sınıf Diyagramları**
+## <a name="_toc94305660"></a><a name="_toc94305780"></a><a name="_toc94305891"></a><a name="_toc94306056"></a><a name="_toc94390987"></a>**11 Class Diagrams**
 
-**Web Sayfası İçin Sınıf Diyagramı**
+**Class Diagram for the Web Page**
 
 ![Web Page Class Diagram](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.034.jpeg)
 
 **Figure 33: Class Diagram for the Web Page**
 
-**Oyun İçin Sınıf Diyagramı**
+**Class Diagram for the Game**
 
 ![Game Class Diagram](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.035.jpeg)
 
@@ -801,80 +801,67 @@ Software used to prepare the UIs:
 
 **\*Some of the game visuals are quoted for representational purposes as the game is not ready.**
 
-![Web Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.050.png)
-
 ### 1. Home Page
 
-![Registration Page (Username Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.051.png)
+![Web Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.050.png)
+
 
 ### 2. Registration Pages
 #### 2.1.1 Registration Page (Username Entry)
+![Registration Page (Username Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.051.png)
 
-![Registration Page (Password Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.052.png)
 
 #### 2.1.2 Registration Page (Password Entry)
+![Registration Page (Password Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.052.png)
 
+
+#### 2.1.2 Registration Page (Phone Number Entry & Confirmation)
 ![Registration Page (Phone Number Entry & Confirmation)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.053.png)
 
 #### 2.1.3 Registration Page (Mail Address Entry & Confirmation)
-
 ![Registration Page (Mail Address Entry & Confirmation)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.054.png)
 
 #### 2.2 Registration Page (Completion & Redirection)
-
 ![Registration Page (Completion & Redirection)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.055.png)
 
 ### 2.2 Login Page
 #### 2.2.1 Login Page (Mail and Password Entry)
-
 ![Login Page (Mail and Password Entry)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.056.png)
 
 #### 2.2.2 Login Page (Google Authenticator)
-
 ![Login Page (Google Authenticator)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.057.png)
 
 #### 2.2.3 Login Page (Completion & Redirection)
-
 ![Login Page (Completion & Redirection)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.058.png)
 
 ### 2.3 User Page
-
 ![User Page](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.059.png)
 
 #### 2.3.1 Wallet Not Connected User Page (Coin Exchange Page)
-
 ![Wallet Not Connected User Page (Coin Exchange Page)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.060.png)
 
 #### 2.3.2 Wallet Connection (Wallet Provider Screen)
-
 ![Wallet Connection (Wallet Provider Screen)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.061.png)
 
 #### 2.3.3 Wallet Connected User Page (Coin Exchange Page)
-
 ![Wallet Connected User Page (Coin Exchange Page)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.062.png)
 
 #### 2.3.4 Post-Exchange View
-
 ![Post-Exchange View](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.063.png)
 
 #### 2.3.5 Wallet Page (Slide Coin Purchase)
-
 ![Wallet Page (Slide Coin Purchase)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.064.png)
 
 #### 2.3.6 Post-Purchase View
-
 ![Post-Purchase View](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.065.png)
 
 #### 2.3.7 Withdrawal Page (View and Process Requests from the Game)
-
 ![Withdrawal Page (View and Process Requests from the Game)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.066.png)
 
 #### 2.3.7.1 Withdrawal Page (Additional Menu)
-
 ![Withdrawal Page (Additional Menu)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.067.png)
 
 #### 2.3.8 Logout
-
 ![Logout](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.068.png)
 
 **Game**
@@ -886,19 +873,15 @@ Software used to prepare the UIs:
 ![Game Login Screen](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.070.png)
 
 ### 3.2 Game Main Screen (Representative)
-
 ![Game Main Screen (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.071.png)
 
 ### 3.2.1 Start Game (Select Map) (Representative)
-
 ![Start Game (Select Map) (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.072.png)
 
 ### 3.2.2 Start Game (Select Car) (Representative)
-
 ![Start Game (Select Car) (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.073.png)
 
 ### 3.3 Game View (Representative)
-
 ![Game View (Representative)](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.074.png)
 
 *Representative images are quoted from the game "Horizon Chase," with additions made to the pictures.*
@@ -928,7 +911,7 @@ Ultimately, release an "Alpha" version and conduct an "Acceptance Test" with end
 
 In this section, the constraints of the system that can be tested and those that cannot be tested are presented in tabular form.
 
-**Table 15.1.2: Testable Subsystems/Features of the Slide It! Project's Game System**
+
 
 
 | **TESTABLE ITEMS**             | **TEST SCENARIOS**                                          |
@@ -961,15 +944,15 @@ In this section, the constraints of the system that can be tested and those that
 |                                |                                                            |
 | **GAME SYSTEM**                 | Test the playability of the game                           |
 |                                |                                                            |
-
-**Table 15.2: Non-Testable Subsystems/Features of Slide It! System**
+**Table 15.1.2: Testable Subsystems/Features of the Slide It! Project's Game System**
 
 | User Interface Design | Due to different resolutions on various devices, testing the design and appearance individually on each device is not feasible. |
 | - | - |
 | Wallet Addition and Purchase Transactions After | Since the "Slide Coin" is not yet available in the project phase, testing buying, selling, and swapping transactions is not possible. |
 | MetaMask Correct Network Selection | Due to limited access for security reasons, MetaMask provides restricted access to the user's wallet. If the user selects the wrong network and makes a transaction, the coins won't transfer to the correct wallet. Due to limited access, correct network verification is not feasible. |
+**Table 15.2: Non-Testable Subsystems/Features of Slide It! System**
 
-**Table 15.3.1: Description of Manually Performed Tests**
+
 
 | Manual Method Test | Tested Features | Test Type |
 | ------------------ | --------------- | --------- |
@@ -985,8 +968,8 @@ In this section, the constraints of the system that can be tested and those that
 | Mail Verification Test | Mail Verification System | Usability/Integration Test |
 | G.Auth Control Test | G.Auth System | Usability/Integration Test |
 | General Functional Test of the Website | Web Page | Usability Test |
+**Table 15.3.1: Description of Manually Performed Tests**
 
-**Table 15.3.1.2: Description of Manually Performed Tests (Game)**
 
 | Manual Method Test | Tested Features | Test Type |
 | ------------------ | --------------- | --------- |
@@ -1003,12 +986,13 @@ In this section, the constraints of the system that can be tested and those that
 | Game Interface | Testing Map Ownership to Start the Game | Functional/Component Test |
 | Game | Testing Game Playability | Usability Test |
 | Game/Web Page | Testing the Accuracy of the Game and Web Page | System/Alpha/Acceptance Test |
+**Table 15.3.1.2: Description of Manually Performed Tests (Game)**
 
 ## <a name="_toc94305664"></a><a name="_toc94305784"></a><a name="_toc94305895"></a><a name="_toc94306061"></a><a name="_toc94390993"></a>**16 Success/Failure Test Evaluation Criteria**
 
 The success/failure test criteria for the Slide It! system are explained in tables.
 
-**Table 16.1: Successful/Failure Test Evaluations**
+
 
 | Subsystems        | Features                  | Expected Input       | Expected Output                     | Success/Failure |
 |-------------------|---------------------------|----------------------|-------------------------------------|-----------------|
@@ -1022,9 +1006,9 @@ The success/failure test criteria for the Slide It! system are explained in tabl
 | Interface         | Web Page                  | Testing general functionality of the web page (Button functionality, position, page integrity) | Clicks | Correct returns | Successful      |
 | Interface         | Game                      | Testing general functionality of the game interface (Button functionality, position, game interface integrity) | Clicks | Correct returns | Successful      |
 | Interface         | Game                      | Testing the playability of the game | Game playing style | Ability to play the game correctly | Successful      |
+**Table 16.1: Successful/Failure Test Evaluations**
 
 
-**Table 16.1.2: Successful/Failed Test Evaluations (Continuation of the Previous Table)**
 
 | Subsystems | Features | Expected Input | Expected Output | Successful/Failed |
 | ---------- | -------- | --------------- | --------------- | ----------------- |
@@ -1035,16 +1019,18 @@ The success/failure test criteria for the Slide It! system are explained in tabl
 | Authentication | Mail Verification | Representative Email Address | Output Indicating Email Verification | Successful | - |
 | Authentication | Phone Number Verification | Valid* Number | Output Indicating Number Verification | Successful | - |
 | Authentication | G.Auth Control | Valid G.Auth Code | Verified Output | Successful | - |
+**Table 16.1.2: Successful/Failed Test Evaluations (Continuation of the Previous Table)**
 
 ## <a name="_toc94305665"></a><a name="_toc94305785"></a><a name="_toc94305896"></a><a name="_toc94306062"></a><a name="_toc94390994"></a>**17 Test Cases**
-</a>**Table 17.1 : Detailed Test Cases and Results(Web Page)**
+
+
 
 ![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.075.png)<a name="_hlk94302882">
+</a>**Table 17.1 : Detailed Test Cases and Results(Web Page)**
 
-**Table 17.1.2 Detailed Test Cases and Results(Page)**
 
 ![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.076.png)
-
+**Table 17.1.2 Detailed Test Cases and Results(Page)**
 # <a name="_toc94306063"></a><a name="_toc94390995"></a>**V Glossary**
 W – Web Page
 
