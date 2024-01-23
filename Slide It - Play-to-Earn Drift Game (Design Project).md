@@ -44,9 +44,9 @@
 [V. Glossary](#_toc94390995)
 
 # **PROJECT MEMBERS**
-# **Ömer Faruk Can DOĞRUSOY**
-# **Hüseyin KARAOĞLAN**
-# **Mert Ömer ŞENER**
+**Ömer Faruk Can DOĞRUSOY**
+**Hüseyin KARAOĞLAN**
+**Mert Ömer ŞENER**
 
 # <a name="_toc94306043"></a><a name="_toc94390974"></a>**I. Project Definition**
 ## <a name="_toc94305650"></a><a name="_toc94305770"></a><a name="_toc94305881"></a><a name="_toc94306044"></a><a name="_toc94390975"></a>**1. General Overview of the Project**
@@ -944,12 +944,14 @@ In this section, the constraints of the system that can be tested and those that
 |                                |                                                            |
 | **GAME SYSTEM**                 | Test the playability of the game                           |
 |                                |                                                            |
+
 **Table 15.1.2: Testable Subsystems/Features of the Slide It! Project's Game System**
 
 | User Interface Design | Due to different resolutions on various devices, testing the design and appearance individually on each device is not feasible. |
 | - | - |
 | Wallet Addition and Purchase Transactions After | Since the "Slide Coin" is not yet available in the project phase, testing buying, selling, and swapping transactions is not possible. |
 | MetaMask Correct Network Selection | Due to limited access for security reasons, MetaMask provides restricted access to the user's wallet. If the user selects the wrong network and makes a transaction, the coins won't transfer to the correct wallet. Due to limited access, correct network verification is not feasible. |
+
 **Table 15.2: Non-Testable Subsystems/Features of Slide It! System**
 
 
@@ -968,6 +970,7 @@ In this section, the constraints of the system that can be tested and those that
 | Mail Verification Test | Mail Verification System | Usability/Integration Test |
 | G.Auth Control Test | G.Auth System | Usability/Integration Test |
 | General Functional Test of the Website | Web Page | Usability Test |
+
 **Table 15.3.1: Description of Manually Performed Tests**
 
 
@@ -986,6 +989,7 @@ In this section, the constraints of the system that can be tested and those that
 | Game Interface | Testing Map Ownership to Start the Game | Functional/Component Test |
 | Game | Testing Game Playability | Usability Test |
 | Game/Web Page | Testing the Accuracy of the Game and Web Page | System/Alpha/Acceptance Test |
+
 **Table 15.3.1.2: Description of Manually Performed Tests (Game)**
 
 ## <a name="_toc94305664"></a><a name="_toc94305784"></a><a name="_toc94305895"></a><a name="_toc94306061"></a><a name="_toc94390993"></a>**16 Success/Failure Test Evaluation Criteria**
@@ -1006,6 +1010,7 @@ The success/failure test criteria for the Slide It! system are explained in tabl
 | Interface         | Web Page                  | Testing general functionality of the web page (Button functionality, position, page integrity) | Clicks | Correct returns | Successful      |
 | Interface         | Game                      | Testing general functionality of the game interface (Button functionality, position, game interface integrity) | Clicks | Correct returns | Successful      |
 | Interface         | Game                      | Testing the playability of the game | Game playing style | Ability to play the game correctly | Successful      |
+
 **Table 16.1: Successful/Failure Test Evaluations**
 
 
@@ -1019,6 +1024,7 @@ The success/failure test criteria for the Slide It! system are explained in tabl
 | Authentication | Mail Verification | Representative Email Address | Output Indicating Email Verification | Successful | - |
 | Authentication | Phone Number Verification | Valid* Number | Output Indicating Number Verification | Successful | - |
 | Authentication | G.Auth Control | Valid G.Auth Code | Verified Output | Successful | - |
+
 **Table 16.1.2: Successful/Failed Test Evaluations (Continuation of the Previous Table)**
 
 ## <a name="_toc94305665"></a><a name="_toc94305785"></a><a name="_toc94305896"></a><a name="_toc94306062"></a><a name="_toc94390994"></a>**17 Test Cases**
@@ -1026,11 +1032,14 @@ The success/failure test criteria for the Slide It! system are explained in tabl
 
 
 ![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.075.png)<a name="_hlk94302882">
+
 </a>**Table 17.1 : Detailed Test Cases and Results(Web Page)**
 
 
 ![](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.aa6460c0-4681-4253-a446-2b7972708b33.076.png)
+
 **Table 17.1.2 Detailed Test Cases and Results(Page)**
+
 # <a name="_toc94306063"></a><a name="_toc94390995"></a>**V Glossary**
 W – Web Page
 
