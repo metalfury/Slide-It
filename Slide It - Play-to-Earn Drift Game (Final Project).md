@@ -151,7 +151,7 @@ The "ACC (Arcade Car Controller)" asset was purchased from the Asset Store and i
 The Modern UI Pack Asset was used for some interface elements (input field, modal window, button). This asset was acquired for free.
 
 The "STYLIZED: Complete Drift Cars" asset was purchased for the cars that will be used and sold in the game. This asset includes 17 car models, and the models were added to the game using the "Add car to game" panel of the ACC asset.
----
+
 ![Car Asset](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.005.png)
 
 *Screenshot 4: Asset Store Car Asset*
@@ -252,6 +252,7 @@ Basic JavaScript and CSS codes were used in the development of the web page.
 Another template named "Vision UI Dashboard" was used for users to perform transactions and register. This template is also written in ReactJs and integrated with Firebase Realtime Database.
 
 ![Template Preview](https://github.com/metalfury/Slide-It/blob/main/src/Aspose.Words.ab673a4a-99af-4915-9591-61bf4090cf5b.025.png)
+
 *Screenshot 25: Template Preview*
 ---
 The homepage of this template is currently static.
